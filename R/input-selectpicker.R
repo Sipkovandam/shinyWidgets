@@ -336,7 +336,7 @@ selectOptions <- function(choices,
   }
   
   # paste everything together
-  htmltools::HTML(captureOutput(html, collapse = "\n"))
+  htmltools::HTML(paste(html, collapse = "\n"))
 }
 
 
